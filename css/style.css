@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    place-content: center;
+    background-color: lightgray;
+    font-family: Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+main {
+    /* display: flex; */
+    width: 60%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.tribute-info{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+img{
+    width: 100%;
+}
